@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
@@ -10,9 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AOT\AOT.csproj" />
     <ProjectReference Include="..\Compiled\Compiled.csproj" />
-    <ProjectReference Include="..\JIT\JIT.csproj" />
   </ItemGroup>
 
 </Project>
